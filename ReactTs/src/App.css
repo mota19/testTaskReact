@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0; 
+  font-family: "Popins";
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1420px;
+  background-color: white;
+  color: black;
+}
+
+.dark-theme .container { 
+  margin: 0 auto;
+  max-width: 1420px;
+  background-color: black;
+  color: white;
+}
+
+.darkTheme {
+  background-color: black;
+  color: white;
+}
+
+
+.header{
+  display: flex;
+  max-width: 1420px;
+  margin-top: 20px;
+  justify-content: space-between;
+  height: 54px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13px;
+
+}
+
+.navigationDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 395px;
+  font-size: 21px;
+  
+}
+
+.navigationDiv div{
+  margin-left: 20px;
+}
+
+.muhamed{
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.muhamed span{
+  color: white;
+  background-color: rgba(255, 99, 0, 1);
+  
+}
+
+
+.header button{
+  background-color: rgba(255, 99, 0, 1);
+  border: none;
+  color: white;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+/*Section*/
+
+
+

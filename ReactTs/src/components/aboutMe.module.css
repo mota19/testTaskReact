@@ -1,0 +1,81 @@
+.mainAboutMeDiv{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 600px 720px;
+    font-family: Poppins;
+}
+
+.textAbout{
+    margin-top: 20px;
+}
+
+.textAbout p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.h2{
+ margin: 0;
+ font-size: 65px;
+}
+
+.slideBar p{
+    margin: 10px 0;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 10px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 99, 0, 1);
+    width: 20px; 
+    height: 20px; 
+    background: white; 
+    cursor: pointer; 
+  }
+
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; 
+    background: #04AA6D; /* Green background */
+    cursor: pointer; 
+  }
+
+.slider::-webkit-slider-runnable-track {
+    width: 100%;
+    
+    background: linear-gradient(to right, #FFA500 50%, #d3d3d3 50%); /* Оранжевий для заповненої частини */
+    border-radius: 5px; /* Округлені кути треку */
+}
+
+.slider::-moz-range-track {
+    width: 100%;
+   
+    background: linear-gradient(to right, #FFA500 50%, #d3d3d3 50%); /* Оранжевий для заповненої частини */
+    border-radius: 5px;
+}
+
+
+

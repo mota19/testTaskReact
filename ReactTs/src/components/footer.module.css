@@ -1,0 +1,52 @@
+.footer{
+    background-color: rgba(248, 248, 248, 1);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.muhamed{
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .muhamed span{
+    color: white;
+    background-color: rgba(255, 99, 0, 1);
+    
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+  
+  }
+  
+  .navigationDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 75px;
+    font-size: 21px;
+    gap:25px;
+  }
+
+  .svgBlocks{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.svgBlocks svg {
+    margin: 0 20px; 
+    cursor: pointer;
+}
+  

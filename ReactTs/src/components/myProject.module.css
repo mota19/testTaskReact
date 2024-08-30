@@ -1,0 +1,80 @@
+.ProjectMainDiv{
+    height: 1000px;
+}
+
+.sec{
+    margin: 0 auto;
+    width: 932px;
+}
+
+
+.h2{
+    margin: 0;
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.p{
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+letter-spacing: 0.03em;
+text-align: center;
+margin: 25px;
+}
+
+.listButton{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.listButton li{
+    color: black !important;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 56px;
+    background-color: rgba(243, 243, 243, 1);
+    margin: 0;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+.myProjectCardBlock{
+    display: flex;
+    justify-content: space-around;
+}
+
+.myProjectCard{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.myProjectCard h3{
+    color: rgba(255, 99, 0, 1);
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.myProjectCard p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.listButton li.active {
+    background-color:  rgba(253, 111, 0, 1);
+}
